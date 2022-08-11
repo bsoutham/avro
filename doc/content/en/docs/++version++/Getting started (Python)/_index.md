@@ -27,7 +27,7 @@ weight: 3
 
 -->
 
-This is a short guide for getting started with Apache Avro™ using Python. This guide only covers using Avro for data serialization; see Patrick Hunt's Avro RPC Quick Start for a good introduction to using Avro for RPC.
+This is a short guide for getting started with Apache Avro™ using Python. This guide only covers using Avro for data serialization; see Patrick Hunt's [Avro RPC Quick Start](https://github.com/phunt/avro-rpc-quickstart) for a good introduction to using Avro for RPC.
 
 ## Notice for Python 3 users
 A package called "avro-python3" had been provided to support Python 3 previously, but the codebase was consolidated into the "avro" package and that supports both Python 2 and 3 now. The avro-python3 package will be removed in the near future, so users should use the "avro" package instead. They are mostly API compatible, but there's a few minor difference (e.g., function name capitalization, such as avro.schema.Parse vs avro.schema.parse).
